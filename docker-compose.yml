@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  web-primary:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: manuel-baire-rentabilidad-bitcoin:latest
+    container_name: manuel-baire-web-primary
+    restart: unless-stopped
+    networks:
+      - manuel-baire-net
+
+  web-secondary:
+    image: manuel-baire-rentabilidad-bitcoin:latest
+    container_name: manuel-baire-web-secondary
+    restart: unless-stopped
+    depends_on:
+      - web-primary
+    networks:
+      - manuel-baire-net
+
+  proxy:
+    image: docker.io/library/nginx:1.27-alpine
+    container_name: manuel-baire-proxy
+    restart: unless-stopped
+    depends_on:
+      - web-primary
+      - web-secondary
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docker/proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - manuel-baire-net
+
+networks:
+  manuel-baire-net:
+    driver: bridge

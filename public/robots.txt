@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://manuelbaire.com/sitemap.xml
+Sitemap: https://manuel-baire-rentabilidad-bitcoin.vercel.app/sitemap.xml
