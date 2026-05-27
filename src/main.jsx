@@ -60,7 +60,7 @@ const authorityCards = [
 
 const methodology = [
   ["01", "Entender Bitcoin", "Antes de operar o invertir, el primer paso es comprender qué es Bitcoin, cómo se comporta su mercado y por qué su volatilidad exige criterio."],
-  ["02", "Analizar tecnología y estrategia", "Manuel Baire enfoca su experiencia en sistemas automatizados, bots, APIs, inteligencia artificial y herramientas que permiten estudiar el mercado con mayor disciplina."],
+  ["02", "Analizar tecnología y estrategia", "Manuel Beiro enfoca su experiencia en sistemas automatizados, bots, APIs, inteligencia artificial y herramientas que permiten estudiar el mercado con mayor disciplina."],
   ["03", "Evaluar riesgo", "Todo proyecto cripto exige evaluar riesgos técnicos, operativos, de mercado y de liquidez. La rentabilidad nunca debe entenderse como garantía."],
   ["04", "Participar en comunidad", "La comunidad de Telegram permite hacer preguntas, recibir orientación general y conocer contenidos de valor antes de tomar decisiones."]
 ];
@@ -69,18 +69,18 @@ const services = [
   ["Orientación sobre Bitcoin", "Contenido y orientación general para comprender Bitcoin, su volatilidad, sus ciclos, sus oportunidades y sus riesgos.", Bitcoin],
   ["Trading algorítmico y bots", "Explicación de conceptos relacionados con bots, trading automatizado, APIs, sistemas de operación y herramientas de análisis cripto.", Bot],
   ["IA aplicada al mercado cripto", "Análisis de cómo la inteligencia artificial puede participar en lectura de mercado, ejecución automática, optimización y seguimiento.", BrainCircuit],
-  ["Portafolio de proyectos cripto", "Presentación de proyectos vinculados a la experiencia de Manuel Baire, incluyendo IA CRIPTO y PowerBitcoin.", Globe2],
+  ["Portafolio de proyectos cripto", "Presentación de proyectos vinculados a la experiencia de Manuel Beiro, incluyendo IA CRIPTO y PowerBitcoin.", Globe2],
   ["Comunidad y preguntas en Telegram", "Espacio directo para resolver dudas, recibir contenido de valor y conocer la visión de Manuel sobre Bitcoin.", MessageCircle],
   ["Acompañamiento informativo", "Orientación general para personas que quieren entender la tecnología, el mercado y los riesgos antes de tomar decisiones.", ShieldCheck]
 ];
 
 const faqItems = [
-  ["¿Quién es Manuel Baire?", "Manuel Baire es una figura vinculada al ecosistema Bitcoin, trading algorítmico, bots, inteligencia artificial aplicada al mercado cripto y proyectos como IA CRIPTO y PowerBitcoin."],
-  ["¿Qué es Manuel Baire Rentabilidad Bitcoin?", "Es la marca comercial y personal de Manuel Baire para comunicar su experiencia, portafolio, contenidos y visión sobre Bitcoin, automatización, trading cripto y gestión de riesgo."],
-  ["¿Qué relación tiene Manuel Baire con IA CRIPTO?", "IA CRIPTO forma parte del ecosistema de experiencia asociado a Manuel Baire y BIG TRADERS, con enfoque en trading automatizado, IA, API, Bitget y operación en mercado spot."],
+  ["¿Quién es Manuel Beiro?", "Manuel Beiro es una figura vinculada al ecosistema Bitcoin, trading algorítmico, bots, inteligencia artificial aplicada al mercado cripto y proyectos como IA CRIPTO y PowerBitcoin."],
+  ["¿Qué es Manuel Beiro Rentabilidad Bitcoin?", "Es la marca comercial y personal de Manuel Beiro para comunicar su experiencia, portafolio, contenidos y visión sobre Bitcoin, automatización, trading cripto y gestión de riesgo."],
+  ["¿Qué relación tiene Manuel Beiro con IA CRIPTO?", "IA CRIPTO forma parte del ecosistema de experiencia asociado a Manuel Beiro y BIG TRADERS, con enfoque en trading automatizado, IA, API, Bitget y operación en mercado spot."],
   ["¿Qué es PowerBitcoin?", "PowerBitcoin es un proyecto de exchange enfocado en Bitcoin BTC/USDT, con una experiencia de operación basada en el sistema 3A Power System, take profit, stop loss y apalancamiento automático/adaptativo."],
-  ["¿Manuel Baire garantiza rentabilidad?", "No. La marca comunica experiencia, tecnología, contenidos y metodología. Bitcoin y el trading cripto implican riesgos, y ningún resultado histórico garantiza resultados futuros."],
-  ["¿Qué puedo preguntar en el grupo de Telegram?", "Puedes preguntar sobre Bitcoin, conceptos básicos, trading algorítmico, IA cripto, bots, exchanges, seguridad, gestión de riesgo y proyectos del portafolio de Manuel Baire."],
+  ["¿Manuel Beiro garantiza rentabilidad?", "No. La marca comunica experiencia, tecnología, contenidos y metodología. Bitcoin y el trading cripto implican riesgos, y ningún resultado histórico garantiza resultados futuros."],
+  ["¿Qué puedo preguntar en el grupo de Telegram?", "Puedes preguntar sobre Bitcoin, conceptos básicos, trading algorítmico, IA cripto, bots, exchanges, seguridad, gestión de riesgo y proyectos del portafolio de Manuel Beiro."],
   ["¿La web tiene formulario?", "No. La comunicación principal se realiza mediante Telegram."],
   ["¿Qué significa trading algorítmico?", "Es el uso de sistemas, reglas, bots o software para analizar condiciones de mercado y ejecutar operaciones de manera automatizada o asistida."],
   ["¿Qué es una API en trading cripto?", "Una API permite que un sistema externo se conecte a una cuenta de exchange para leer datos o ejecutar operaciones según permisos definidos."],
@@ -214,7 +214,7 @@ const articles = [
     sections: [
       ["¿Debo entender antes de comprar?", "Sí. Antes de comprar, operar o participar en un proyecto cripto, conviene entender qué es Bitcoin, cómo se custodia, por qué cambia de precio y qué riesgos existen."],
       ["¿Bitcoin es solo para expertos?", "No. Cualquier persona puede aprender sus conceptos básicos, pero participar sin educación aumenta la probabilidad de errores. El objetivo inicial debe ser comprender, no correr."],
-      ["¿Dónde resolver dudas?", "El grupo de Telegram de Manuel Baire Rentabilidad Bitcoin existe para hacer preguntas, conocer proyectos, aclarar conceptos y conversar con un enfoque responsable."]
+      ["¿Dónde resolver dudas?", "El grupo de Telegram de Manuel Beiro Rentabilidad Bitcoin existe para hacer preguntas, conocer proyectos, aclarar conceptos y conversar con un enfoque responsable."]
     ],
     bullets: ["Aprender primero es una ventaja.", "No hay rentabilidad garantizada.", "La seguridad personal importa.", "Una comunidad clara ayuda a filtrar ruido."]
   }
@@ -254,7 +254,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="#inicio" aria-label="Ir al inicio">
-        <span>Manuel Baire</span>
+        <span>Manuel Beiro</span>
         <small>Rentabilidad Bitcoin</small>
       </a>
       <nav className="desktop-nav" aria-label="Navegación principal">
@@ -275,10 +275,10 @@ function Hero() {
     <section id="inicio" className="hero section">
       <div className="hero-copy reveal">
         <p className="eyebrow"><Sparkles size={16} aria-hidden="true" /> Bitcoin con método, datos y tecnología</p>
-        <h1>Manuel Baire Rentabilidad Bitcoin</h1>
+        <h1>Manuel Beiro Rentabilidad Bitcoin</h1>
         <p className="hero-subtitle">Bitcoin, trading algorítmico e inteligencia artificial aplicada al mercado cripto.</p>
         <p className="hero-text">
-          Manuel Baire reúne experiencia práctica en proyectos vinculados a Bitcoin, automatización, bots de trading, exchanges,
+          Manuel Beiro reúne experiencia práctica en proyectos vinculados a Bitcoin, automatización, bots de trading, exchanges,
           inteligencia artificial y estrategias cripto. Su enfoque combina tecnología, análisis, gestión de riesgo e información clara
           para personas que quieren entender mejor el mundo Bitcoin antes de tomar decisiones.
         </p>
@@ -346,10 +346,10 @@ function AboutSection() {
   return (
     <section id="sobre-manuel" className="section split">
       <div className="section-copy reveal">
-        <p className="eyebrow"><BadgeCheck size={16} aria-hidden="true" /> Sobre Manuel Baire</p>
+        <p className="eyebrow"><BadgeCheck size={16} aria-hidden="true" /> Sobre Manuel Beiro</p>
         <h2>Experiencia práctica en Bitcoin, trading algorítmico e innovación cripto</h2>
         <p>
-          Manuel Baire se posiciona como una figura especializada en el ecosistema Bitcoin, con experiencia vinculada a proyectos de
+          Manuel Beiro se posiciona como una figura especializada en el ecosistema Bitcoin, con experiencia vinculada a proyectos de
           trading automatizado, inteligencia artificial aplicada al mercado cripto, bots de operación, sistemas BTC/USDT y modelos de
           exchange. Su marca, Rentabilidad Bitcoin, nace para compartir una visión más clara, tecnológica y responsable sobre las
           oportunidades del mundo cripto.
@@ -381,7 +381,7 @@ function RentabilidadSection() {
         <p className="eyebrow"><Gauge size={16} aria-hidden="true" /> Definición directa</p>
         <h2>¿Qué es Rentabilidad Bitcoin?</h2>
         <p>
-          Rentabilidad Bitcoin es la marca comercial de Manuel Baire orientada a explicar el potencial de Bitcoin, el trading algorítmico,
+          Rentabilidad Bitcoin es la marca comercial de Manuel Beiro orientada a explicar el potencial de Bitcoin, el trading algorítmico,
           la automatización con bots, la inteligencia artificial aplicada al mercado cripto y los criterios que una persona debe comprender
           antes de participar en este ecosistema.
         </p>
@@ -432,7 +432,7 @@ function PortfolioSection() {
         <ProjectCard
           title="IA CRIPTO — Trading automatizado con inteligencia artificial"
           description="Proyecto de trading de criptomonedas con IA, automatización 24/7, conexión mediante API, integración con Bitget, operación en mercado spot y enfoque de control del capital desde la cuenta del usuario."
-          items={["Automatización de operaciones.", "Bot asistente vía Telegram.", "Conexión por API.", "Operativa en mercado spot.", "Dashboard, estadísticas e historial.", "Hito operativo de más de 1.800 operaciones positivas consecutivas reportadas por la plataforma.", "Participación del equipo BIG TRADERS, donde Manuel Baire aparece asociado como perfil de trading."]}
+          items={["Automatización de operaciones.", "Bot asistente vía Telegram.", "Conexión por API.", "Operativa en mercado spot.", "Dashboard, estadísticas e historial.", "Hito operativo de más de 1.800 operaciones positivas consecutivas reportadas por la plataforma.", "Participación del equipo BIG TRADERS, donde Manuel Beiro aparece asociado como perfil de trading."]}
           href={IA_CRIPTO_URL}
           cta="Ver IA CRIPTO"
           icon={BrainCircuit}
@@ -447,7 +447,7 @@ function PortfolioSection() {
         />
         <ProjectCard
           title="Comunidad Telegram — Preguntas y contenido de valor"
-          description="Espacio donde Manuel Baire comparte información, responde preguntas y orienta a personas interesadas en Bitcoin, trading algorítmico, IA cripto y proyectos vinculados a su portafolio."
+          description="Espacio donde Manuel Beiro comparte información, responde preguntas y orienta a personas interesadas en Bitcoin, trading algorítmico, IA cripto y proyectos vinculados a su portafolio."
           items={["Preguntas sobre Bitcoin.", "Contenido educativo.", "Novedades del portafolio.", "Conversación directa.", "Enfoque responsable."]}
           href={TELEGRAM_URL}
           cta="Entrar al Telegram"
@@ -463,9 +463,9 @@ function IaCriptoSection() {
     <section id="ia-cripto" className="section split">
       <div className="section-copy reveal">
         <p className="eyebrow"><BrainCircuit size={16} aria-hidden="true" /> IA CRIPTO</p>
-        <h2>IA CRIPTO dentro de la experiencia de Manuel Baire</h2>
+        <h2>IA CRIPTO dentro de la experiencia de Manuel Beiro</h2>
         <p>
-          IA CRIPTO forma parte del ecosistema de experiencia asociado a Manuel Baire y BIG TRADERS. El proyecto presenta una plataforma de
+          IA CRIPTO forma parte del ecosistema de experiencia asociado a Manuel Beiro y BIG TRADERS. El proyecto presenta una plataforma de
           trading automatizado con inteligencia artificial, conectada a Bitget mediante API, diseñada para operar de forma automática en mercado spot.
         </p>
         <div className="milestone">
@@ -493,7 +493,7 @@ function PowerBitcoinSection() {
         <h2>PowerBitcoin dentro del portafolio cripto</h2>
         <p>
           PowerBitcoin representa una línea de innovación enfocada en Bitcoin, BTC/USDT, exchange descentralizado y sistemas automatizados de
-          operación. Dentro de la narrativa de Manuel Baire, este proyecto sirve como muestra de experiencia en productos cripto, trading,
+          operación. Dentro de la narrativa de Manuel Beiro, este proyecto sirve como muestra de experiencia en productos cripto, trading,
           tecnología, privacidad, no custodia y automatización.
         </p>
         <div className="cta-row">
@@ -534,9 +534,9 @@ function TelegramSection() {
       <div className="telegram-panel reveal">
         <div>
           <p className="eyebrow"><MessageCircle size={16} aria-hidden="true" /> Comunidad Telegram</p>
-          <h2>Únete al grupo de Telegram de Manuel Baire</h2>
+          <h2>Únete al grupo de Telegram de Manuel Beiro</h2>
           <p>
-            El grupo de Telegram es el canal principal de comunicación de Manuel Baire Rentabilidad Bitcoin. Allí podrás hacer preguntas,
+            El grupo de Telegram es el canal principal de comunicación de Manuel Beiro Rentabilidad Bitcoin. Allí podrás hacer preguntas,
             recibir contenido de valor, conocer novedades de sus proyectos y entender mejor temas como Bitcoin, trading algorítmico, bots,
             IA cripto, exchanges y gestión de riesgo.
           </p>
@@ -660,7 +660,7 @@ function RiskSection() {
         <p className="eyebrow"><LockKeyhole size={16} aria-hidden="true" /> Transparencia</p>
         <h2>Transparencia y responsabilidad</h2>
         <p>
-          Bitcoin, las criptomonedas y el trading implican volatilidad y riesgo. La información presentada por Manuel Baire Rentabilidad Bitcoin
+          Bitcoin, las criptomonedas y el trading implican volatilidad y riesgo. La información presentada por Manuel Beiro Rentabilidad Bitcoin
           tiene fines informativos, educativos y de presentación de experiencia. Ningún contenido debe interpretarse como garantía de rentabilidad
           ni como promesa de resultados futuros.
         </p>
@@ -679,7 +679,7 @@ function FinalCTA() {
   return (
     <section className="final-cta section-narrow reveal">
       <p className="eyebrow"><Sparkles size={16} aria-hidden="true" /> Antes de decidir, entiende el sistema</p>
-      <h2>Pregunta, aprende y conoce la visión de Manuel Baire en Telegram.</h2>
+      <h2>Pregunta, aprende y conoce la visión de Manuel Beiro en Telegram.</h2>
       <p>Rentabilidad Bitcoin no empieza prometiendo resultados: empieza explicando el método.</p>
       <ButtonLink href={TELEGRAM_URL} label="Entrar al grupo de Telegram" icon={MessageCircle} primary large />
     </section>
@@ -691,7 +691,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-grid">
         <div>
-          <h2>Manuel Baire Rentabilidad Bitcoin</h2>
+          <h2>Manuel Beiro Rentabilidad Bitcoin</h2>
           <p>Bitcoin, trading algorítmico, IA cripto y portafolio de proyectos tecnológicos.</p>
         </div>
         <div>
@@ -765,13 +765,13 @@ function JsonLd({ schemas }) {
 
 function buildSchemas() {
   const organizationId = `${SITE_URL}#brand`;
-  const personId = `${SITE_URL}#manuel-baire`;
+  const personId = `${SITE_URL}#manuel-beiro`;
   return [
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "@id": personId,
-      name: "Manuel Baire",
+      name: "Manuel Beiro",
       brand: { "@id": organizationId },
       url: SITE_URL,
       knowsAbout: ["Bitcoin", "trading algorítmico", "inteligencia artificial aplicada al trading", "bots de trading", "exchanges cripto", "BTC/USDT", "gestión de riesgo", "IA CRIPTO", "PowerBitcoin"]
@@ -780,7 +780,7 @@ function buildSchemas() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "@id": `${SITE_URL}#website`,
-      name: "Manuel Baire Rentabilidad Bitcoin",
+      name: "Manuel Beiro Rentabilidad Bitcoin",
       url: SITE_URL,
       inLanguage: "es",
       publisher: { "@id": organizationId }
@@ -789,7 +789,7 @@ function buildSchemas() {
       "@context": "https://schema.org",
       "@type": "Brand",
       "@id": organizationId,
-      name: "Manuel Baire Rentabilidad Bitcoin",
+      name: "Manuel Beiro Rentabilidad Bitcoin",
       url: SITE_URL,
       slogan: "Bitcoin con método, datos y tecnología."
     },
