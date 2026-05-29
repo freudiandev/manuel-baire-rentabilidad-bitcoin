@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/</loc>
-    <lastmod>2026-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/</loc><lastmod>2026-05-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/manuel-beiro</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/rentabilidad-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/trading-algoritmico-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/bots-trading-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/ia-cripto</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/powerbitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/portafolio</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/servicios</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/telegram</loc><lastmod>2026-05-29</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/transparencia</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias</loc><lastmod>2026-05-29</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/que-es-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/rentabilidad-bitcoin-gestion-riesgo</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/bots-trading-criptomonedas</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/api-exchange-cripto</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/trading-manual-vs-automatizado</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/ia-aplicada-trading-cripto</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/btc-usdt</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/evaluar-proyecto-cripto</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/exchange-sin-custodia</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/bitcoin-principiantes</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/manuel-beiro-rentabilidad-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/trading-algoritmico-bitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/promesas-falsas-rentabilidad-cripto</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url><loc>https://manuel-beiro-rentabilidad-bitcoin.vercel.app/guias/portafolio-ia-cripto-powerbitcoin</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
 </urlset>

@@ -1038,3 +1038,254 @@ blockquote {
     bottom: 0.5rem;
   }
 }
+
+.desktop-nav a[aria-current="page"] {
+  color: var(--gold);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.menu-button,
+.mobile-nav {
+  display: none;
+}
+
+.menu-button {
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.045);
+  cursor: pointer;
+}
+
+.direct-answer {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 860px;
+  border: 1px solid var(--cyan-line);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(0, 212, 255, 0.055);
+}
+
+.direct-answer strong,
+.toc a {
+  color: var(--cyan);
+}
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.milestone-section {
+  padding-top: 3rem;
+}
+
+.milestone-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid var(--gold-line);
+  border-radius: 8px;
+  padding: clamp(1.3rem, 4vw, 2.8rem);
+  background:
+    linear-gradient(135deg, rgba(247, 147, 26, 0.14), rgba(0, 212, 255, 0.06)),
+    var(--panel-strong);
+  box-shadow: var(--shadow);
+}
+
+.milestone-card p {
+  margin-top: 1rem;
+}
+
+.counter {
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  border: 1px solid var(--gold-line);
+  border-radius: 8px;
+  background: rgba(5, 5, 5, 0.46);
+  text-align: center;
+}
+
+.counter strong {
+  color: var(--gold);
+  font-size: clamp(3.2rem, 8vw, 5.8rem);
+  line-height: 1;
+}
+
+.counter span {
+  max-width: 190px;
+  color: #e5e7eb;
+  font-weight: 800;
+}
+
+.project-category {
+  margin-top: 1rem;
+  color: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-grid.single {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.blog-card h2 {
+  margin-bottom: 0.65rem;
+  font-size: 1.22rem;
+}
+
+.inner-hero {
+  display: grid;
+  gap: 1rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.inner-hero h1,
+.article-page h1 {
+  max-width: 980px;
+  font-size: clamp(2.7rem, 7vw, 5.7rem);
+}
+
+.inner-hero p:not(.eyebrow) {
+  max-width: 840px;
+  color: #d1d5db;
+  font-size: 1.12rem;
+}
+
+.article-page {
+  display: grid;
+  gap: 1.2rem;
+  max-width: 980px;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  color: var(--gold);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.toc {
+  display: grid;
+  gap: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--panel);
+}
+
+.toc strong {
+  color: var(--white);
+}
+
+.toc a {
+  font-weight: 750;
+}
+
+.article-section {
+  border-top: 1px solid var(--line);
+  padding-top: 1.25rem;
+}
+
+.article-section h2 {
+  margin-bottom: 0.65rem;
+  font-size: clamp(1.55rem, 3vw, 2.45rem);
+}
+
+.related-links {
+  display: grid;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.related-links h2 {
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+}
+
+.risk-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+
+  .header-actions {
+    justify-content: end;
+  }
+
+  .menu-button {
+    display: inline-grid;
+    place-items: center;
+  }
+
+  .mobile-nav.is-open {
+    grid-column: 1 / -1;
+    display: grid;
+    gap: 0.35rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .mobile-nav a {
+    min-height: 2.7rem;
+    padding: 0.65rem;
+    border-radius: 8px;
+    color: #e5e7eb;
+    background: rgba(255, 255, 255, 0.04);
+    font-weight: 750;
+  }
+
+  .timeline-grid,
+  .milestone-card,
+  .risk-page-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  h1 {
+    max-width: 13ch;
+  }
+
+  .inner-hero {
+    padding-top: 4rem;
+  }
+
+  .timeline-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .milestone-card {
+    padding: 1rem;
+  }
+
+  .counter {
+    min-height: 170px;
+  }
+}
