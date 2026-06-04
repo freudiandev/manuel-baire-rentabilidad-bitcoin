@@ -1289,3 +1289,553 @@ blockquote {
     min-height: 170px;
   }
 }
+
+/* UX/UI polish: fluid rhythm, balanced grids and resilient mobile spacing. */
+:root {
+  --container: 1180px;
+  --gutter: clamp(1rem, 1.5rem, 1.5rem);
+  --section-y: 6.5rem;
+  --section-y-mobile: 4.25rem;
+  --radius: 8px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background:
+    linear-gradient(180deg, rgba(5, 5, 5, 0.96) 0%, rgba(8, 13, 18, 0.98) 48%, #050505 100%),
+    #050505;
+}
+
+body::before {
+  background-size: 64px 64px;
+  opacity: 0.26;
+}
+
+h1 {
+  max-width: 920px;
+  font-size: 4.95rem;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 3.35rem;
+  max-width: 920px;
+}
+
+h3 {
+  font-size: 1.18rem;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.section,
+.section-narrow,
+.footer {
+  width: min(var(--container), calc(100% - (var(--gutter) * 2)));
+}
+
+.section {
+  padding: var(--section-y) 0;
+}
+
+.section-narrow {
+  padding: 3.5rem 0;
+}
+
+.muted-band,
+.portfolio-band,
+.telegram-section {
+  padding-inline: max(var(--gutter), calc((100% - var(--container)) / 2));
+}
+
+.site-header {
+  width: min(var(--container), calc(100% - (var(--gutter) * 2)));
+  min-height: 4.4rem;
+  margin-top: 0.85rem;
+  gap: 1rem;
+  background: rgba(5, 7, 10, 0.82);
+}
+
+.brand {
+  min-width: 0;
+}
+
+.brand span,
+.brand small,
+.button-link span,
+.header-cta {
+  overflow-wrap: anywhere;
+}
+
+.desktop-nav {
+  gap: 0.35rem;
+}
+
+.desktop-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: 0.45rem 0.62rem;
+  border-radius: var(--radius);
+}
+
+.desktop-nav a:hover,
+.desktop-nav a[aria-current="page"] {
+  background: rgba(247, 147, 26, 0.1);
+}
+
+.button-link,
+.header-cta {
+  min-width: 0;
+  min-height: 2.85rem;
+  padding: 0.78rem 1rem;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.button-link svg,
+.header-cta svg,
+.floating-telegram svg {
+  flex: 0 0 auto;
+}
+
+.hero {
+  grid-template-columns: minmax(0, 1fr) minmax(410px, 0.86fr);
+  gap: clamp(2rem, 3rem, 3rem);
+  min-height: auto;
+  padding-top: 5rem;
+}
+
+.hero-copy {
+  align-content: center;
+}
+
+.hero-subtitle {
+  font-size: 1.7rem;
+}
+
+.hero-text,
+.section-copy > p,
+.centered > p,
+.telegram-panel p,
+.final-cta p,
+.inner-hero p:not(.eyebrow) {
+  max-width: 760px;
+  font-size: 1.04rem;
+}
+
+.direct-answer {
+  width: 100%;
+  padding: 1.1rem 1.15rem;
+}
+
+.hero-visual {
+  min-height: 590px;
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgba(5, 5, 5, 0.08), rgba(5, 5, 5, 0.64)),
+    rgba(17, 24, 39, 0.78);
+}
+
+.hero-portrait {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.72;
+}
+
+.hero-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(5, 5, 5, 0.7) 0%, rgba(5, 5, 5, 0.24) 48%, rgba(5, 5, 5, 0.58) 100%),
+    linear-gradient(180deg, transparent 0%, rgba(5, 5, 5, 0.86) 100%);
+}
+
+.network-grid {
+  opacity: 0.55;
+}
+
+.bitcoin-orbit {
+  top: 2rem;
+  right: 2rem;
+  width: 8.75rem;
+  height: 8.75rem;
+}
+
+.chart-panel {
+  left: 1.35rem;
+  right: 1.35rem;
+  bottom: 1.35rem;
+  min-height: 18rem;
+}
+
+.bars {
+  gap: 0.6rem;
+  height: 12rem;
+}
+
+.floating-tags {
+  left: 1.35rem;
+  top: 1.35rem;
+  max-width: calc(100% - 10.5rem);
+}
+
+.floating-tags span,
+.pill-grid span,
+.benefit-grid span {
+  min-height: 2.25rem;
+}
+
+.authority-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.services-grid,
+.portfolio-grid,
+.blog-grid,
+.timeline-grid,
+.risk-page-grid,
+.footer-grid {
+  gap: 1.15rem;
+}
+
+.services-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.portfolio-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.blog-grid,
+.risk-page-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.timeline-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.info-card,
+.project-card,
+.blog-card,
+.timeline-item,
+.matrix div,
+.feature-list article,
+.risk-list,
+.telegram-panel,
+.final-cta,
+.faq-list,
+.knowledge-article,
+.direct-answer,
+.toc {
+  border-radius: var(--radius);
+}
+
+.info-card,
+.blog-card,
+.timeline-item {
+  padding: 1.35rem;
+}
+
+.project-card {
+  gap: 0.15rem;
+  padding: 1.45rem;
+}
+
+.project-card ul {
+  gap: 0.55rem;
+}
+
+.section-heading {
+  width: min(900px, 100%);
+  margin-inline: auto;
+}
+
+.split {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  gap: clamp(1.6rem, 2.4rem, 2.4rem);
+}
+
+.telegram-panel {
+  width: 100%;
+}
+
+.benefit-grid span {
+  max-width: 100%;
+}
+
+.faq-item button {
+  gap: 1rem;
+}
+
+.article-page {
+  width: min(980px, calc(100% - (var(--gutter) * 2)));
+}
+
+.article-page h1,
+.inner-hero h1 {
+  max-width: 980px;
+  font-size: 4.25rem;
+}
+
+.footer-grid {
+  grid-template-columns: minmax(0, 1.3fr) minmax(9rem, 0.75fr) minmax(9rem, 0.95fr) minmax(13rem, 1fr);
+}
+
+@media (max-width: 1180px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  h2 {
+    font-size: 2.75rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    min-height: 540px;
+  }
+
+  .authority-grid,
+  .timeline-grid,
+  .services-grid,
+  .portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  :root {
+    --gutter: 1rem;
+  }
+
+  .header-cta {
+    display: none;
+  }
+
+  .site-header {
+    width: calc(100% - 1rem);
+    margin-top: 0.5rem;
+  }
+
+  .mobile-nav.is-open {
+    gap: 0.5rem;
+  }
+
+  .mobile-nav a {
+    display: flex;
+    align-items: center;
+  }
+
+  .section {
+    padding: var(--section-y-mobile) 0;
+  }
+
+  .section-narrow {
+    padding: 2.75rem 0;
+  }
+
+  .hero {
+    padding-top: 3.5rem;
+  }
+
+  h1,
+  .article-page h1,
+  .inner-hero h1 {
+    max-width: 100%;
+    font-size: 3.05rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.34rem;
+  }
+
+  .hero-visual {
+    min-height: 31rem;
+  }
+
+  .split,
+  .reverse,
+  .milestone-card,
+  .risk-page-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-footer {
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 620px) {
+  body::before {
+    background-size: 48px 48px;
+    opacity: 0.18;
+  }
+
+  h1,
+  .article-page h1,
+  .inner-hero h1 {
+    font-size: 2.42rem;
+    line-height: 1.08;
+  }
+
+  h2 {
+    font-size: 1.92rem;
+    line-height: 1.12;
+  }
+
+  .brand span {
+    font-size: 0.9rem;
+  }
+
+  .brand small {
+    font-size: 0.62rem;
+  }
+
+  .button-link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cta-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    min-height: 28rem;
+  }
+
+  .hero-portrait {
+    object-position: center top;
+  }
+
+  .bitcoin-orbit {
+    top: 1rem;
+    right: 1rem;
+    width: 5.7rem;
+    height: 5.7rem;
+  }
+
+  .bitcoin-orbit svg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .floating-tags {
+    left: 1rem;
+    top: 1rem;
+    max-width: calc(100% - 7.4rem);
+    gap: 0.45rem;
+  }
+
+  .floating-tags span {
+    padding: 0.42rem 0.56rem;
+    font-size: 0.8rem;
+  }
+
+  .chart-panel {
+    left: 0.85rem;
+    right: 0.85rem;
+    bottom: 0.85rem;
+    min-height: 14.5rem;
+    padding: 1rem;
+  }
+
+  .panel-top {
+    gap: 0.75rem;
+    font-size: 0.86rem;
+  }
+
+  .bars {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    height: 9.5rem;
+    gap: 0.38rem;
+  }
+
+  .line-chart {
+    inset: 4.3rem 0.75rem auto;
+    width: calc(100% - 1.5rem);
+    height: 7rem;
+  }
+
+  .authority-grid,
+  .timeline-grid,
+  .services-grid,
+  .portfolio-grid,
+  .footer-grid,
+  .matrix {
+    grid-template-columns: 1fr;
+  }
+
+  .info-card,
+  .blog-card,
+  .timeline-item,
+  .project-card {
+    padding: 1.15rem;
+  }
+
+  .telegram-panel,
+  .final-cta,
+  .milestone-card {
+    padding: 1.15rem;
+  }
+
+  .benefit-grid,
+  .pill-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-grid span,
+  .pill-grid span {
+    width: 100%;
+  }
+
+  .floating-telegram {
+    left: auto;
+    right: 0.85rem;
+    bottom: 0.75rem;
+    width: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0;
+    border-radius: 50%;
+  }
+
+  .floating-telegram span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}

@@ -385,8 +385,9 @@ function Hero({ navigate }) {
 function HeroVisual() {
   return (
     <div className="hero-visual reveal" role="img" aria-label="Dashboard abstracto de Bitcoin y trading algorítmico con IA cripto">
+      <img className="hero-portrait" src="/images/manuel-master-trader-ia-cripto.jpg" alt="" aria-hidden="true" />
       <div className="network-grid" />
-      <div className="bitcoin-orbit"><Bitcoin size={78} aria-hidden="true" /></div>
+      <div className="bitcoin-orbit"><Bitcoin size={70} aria-hidden="true" /></div>
       <div className="chart-panel">
         <div className="panel-top"><span>BTC/USDT</span><strong>método + datos</strong></div>
         <div className="bars" aria-hidden="true">{[34, 52, 42, 70, 58, 86, 76].map((height) => <i key={height} style={{ height: `${height}%` }} />)}</div>
